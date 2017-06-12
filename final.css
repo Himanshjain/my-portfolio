@@ -75,3 +75,13 @@
 .col-12 {
     width: 100%;
 }
+
+@media screen and (max-width: 575px) {
+    .row {
+              flex-direction: column;
+       }
+
+      .col-4 {
+              width: 100%;
+       }
+}
